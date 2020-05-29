@@ -6,4 +6,9 @@
         android:title="LOGOUT"
         app:showAsAction="always"/>
 
+    <item android:id="@+id/viewPostsItem"
+        android:title="View Posts"
+        app:showAsAction="always"/>
+
+
 </menu>
