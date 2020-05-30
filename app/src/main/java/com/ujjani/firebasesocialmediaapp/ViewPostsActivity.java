@@ -76,13 +76,13 @@ public class ViewPostsActivity extends AppCompatActivity implements AdapterView.
             }
 
 
-           //when the child or object is deleted this method will be called
+
             @Override
             public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
 
 
             }
-
+            //when the child or object is deleted this method will be called
             @Override
             public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
 
